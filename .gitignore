@@ -1,0 +1,8 @@
+# Ignore `basics` folder
+basics
+
+# Ignore files with .class extension
+*.class
+
+# Ignore .metadata folder
+.metadata
