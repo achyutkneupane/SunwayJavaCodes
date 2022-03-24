@@ -6,3 +6,6 @@ basics
 
 # Ignore .metadata folder
 .metadata
+
+# Ignore 'Study Contents' Folder
+Study Contents
