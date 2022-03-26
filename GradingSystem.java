@@ -1,26 +1,18 @@
-import java.util.Scanner;
-
-public class GradingSystem {
-    public static char getGrade(int marks) {
+interface GradingSystem {
+    public static String getGrade(int marks) {
         if(marks<25)
-            return 'F';
+            return "F";
         else if(25<=marks && marks<45)
-            return 'E';
+            return "E";
         else if(45<=marks && marks<50)
-            return 'D';
+            return "D";
         else if(50<=marks && marks<60)
-            return 'C';
+            return "C";
         else if(60<=marks && marks<80)
-            return 'B';
+            return "B";
+        else if(80<=marks && marks<=100)
+            return "A";
         else
-            return 'A';
-    }
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter your marks: ");
-        int marks = scan.nextInt();
-        System.out.println("Your Grade is: "+getGrade(marks));
-        scan.close();
+            return "Invalid";
     }
 }
