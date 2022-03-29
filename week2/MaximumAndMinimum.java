@@ -2,11 +2,22 @@ import java.util.Scanner;
 
 /**
  * MaximumAndMinimum
+ * 
+ * @author Achyut Neupane <to@achyut.com.np>
+ * 
+ * Q. Define two methods to print the maximum and the minimum number
+ * respectively among three numbers entered by the user
+ * 
+ * This code has the class `MaximumAndMinimum` which has a constructor
+ * where 3 numbers are initialized.
+ * It has two methods `maximumNumber` and `minimumNumber` which returns
+ * the maximum and minimum number among the three numbers respectively.
  */
-public class MaximumAndMinimum {
-    int num1,num2,num3;
 
-    MaximumAndMinimum(int num1,int num2,int num3) {
+public class MaximumAndMinimum {
+    int num1, num2, num3;
+
+    MaximumAndMinimum(int num1, int num2, int num3) {
         this.num1 = num1;
         this.num2 = num2;
         this.num3 = num3;
@@ -14,8 +25,8 @@ public class MaximumAndMinimum {
 
     public int maximumNumber() {
         // if num1 is greater than num2
-        if(this.num1 >= this.num2) {
-            if(this.num1 >= this.num3)
+        if (this.num1 >= this.num2) {
+            if (this.num1 >= this.num3)
                 // if num1 is greater than num2 and num3, return num1
                 return this.num1;
             else
@@ -24,7 +35,7 @@ public class MaximumAndMinimum {
         }
         // if num2 is greater than num1
         else {
-            if(this.num2 >= this.num3)
+            if (this.num2 >= this.num3)
                 // if num2 is greater than num1 and num3, return num2
                 return this.num2;
             else
@@ -35,8 +46,8 @@ public class MaximumAndMinimum {
 
     public int minimumNumber() {
         // if num1 is less than num2
-        if(this.num1 < this.num2) {
-            if(this.num1 < this.num3)
+        if (this.num1 < this.num2) {
+            if (this.num1 < this.num3)
                 // if num1 is less than num2 and num3, return num1
                 return this.num1;
             else
@@ -45,7 +56,7 @@ public class MaximumAndMinimum {
         }
         // if num2 is greater than num1
         else {
-            if(this.num2 < this.num3)
+            if (this.num2 < this.num3)
                 // if num2 is less than num1 and num3, return num2
                 return this.num2;
             else
@@ -54,13 +65,14 @@ public class MaximumAndMinimum {
         }
     }
 
+    // Scanner takes the input of three numbers from user
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter three numbers: ");
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         int num3 = scan.nextInt();
-        MaximumAndMinimum mnm = new MaximumAndMinimum(num1,num2,num3);
+        MaximumAndMinimum mnm = new MaximumAndMinimum(num1, num2, num3);
         System.out.println("The maximum number among three is: " + mnm.maximumNumber());
         System.out.println("The minimum number among three is: " + mnm.minimumNumber());
         scan.close();
