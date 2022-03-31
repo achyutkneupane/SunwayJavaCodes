@@ -76,22 +76,21 @@ public class ElectronicPurchase {
         System.out.println("Total Amount: Rs."+this.returnTotalAmount());
     }
 
-    // useDelimiter("\n") is used to remove the linebreak from the input
-    // otherwise the next nextLine() will be skipped
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         char type;
-        // Asks for the type of product (L for laptop and D for desktop) until the user enters L or D
-        do {
-            System.out.println("Enter the type of the product: ");
-            type = scan.useDelimiter("\n").next().charAt(0);
-        } while(type != 'L' && type != 'D');
-        System.out.println("Enter the amount of the purchase: ");
-        double amount = scan.nextDouble();
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the name of the customer: ");
         String name = scan.nextLine();
         System.out.println("Enter the address of the customer: ");
         String address = scan.nextLine();
+        System.out.println("Enter the amount of the purchase: ");
+        double amount = scan.nextDouble();
+        // Asks for the type of product (L for laptop and D for desktop) until the user enters L or D
+        do {
+            System.out.println("Enter the type of the product:"+
+                               "('L' for Laptop and 'D' for Desktop)");
+            type = scan.next().charAt(0);
+        } while(type != 'L' && type != 'D');
         ElectronicPurchase ep = new ElectronicPurchase(type, amount, name, address);
         ep.printDetails();
         scan.close();

@@ -47,10 +47,8 @@ public class StudentAttendance {
                 classesAttended);
         System.out.println(
                 "The percentage of classes attended is: " +
-                        student1.returnPercentage() *
-                                100
-                        +
-                        "%");
+                        student1.returnPercentage() *100+"%"
+                        );
         System.out.println(
                 "So, the student is" +
                         (student1.allowedOrNot() ? " " : " not ") +

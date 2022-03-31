@@ -1,6 +1,3 @@
-# Ignore `basics` folder
-basics
-
 # Ignore files with .class extension
 *.class
 
@@ -9,3 +6,6 @@ basics
 
 # Ignore 'Study Contents' Folder
 Study Contents
+
+# Ignore '.vscode' folder
+.vscode
