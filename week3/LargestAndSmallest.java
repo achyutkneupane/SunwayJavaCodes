@@ -28,6 +28,7 @@ public class LargestAndSmallest {
         this.smallest = Integer.MAX_VALUE;
     }
     public void getLargestAndSmallest(int num) {
+        if(num == 0) return;
         if (num > this.largest) {
             this.largest = num;
         }
