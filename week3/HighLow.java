@@ -46,7 +46,7 @@ public class HighLow {
             System.out.println("Enter your guess "+ ++count +":");
             guess = scan.nextInt();
             if(guess == this.correct) {
-                System.out.println("Correct after only "+count+" guesses – brilliant!!");
+                System.out.println("Correct after only "+count+" guesses. Brilliant!!");
                 break;
             }
             System.out.println(this.higherOrLower(guess));

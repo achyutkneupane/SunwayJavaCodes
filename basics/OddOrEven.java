@@ -1,3 +1,4 @@
+package basics;
 public class OddOrEven {
     public static boolean isOdd(int num) {
         return num%2 == 1;

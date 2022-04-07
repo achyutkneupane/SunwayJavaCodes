@@ -1,3 +1,4 @@
+package basics;
 public class SqOrNot {
     public static boolean isSquare(int length,int breadth) {
         return length==breadth;
