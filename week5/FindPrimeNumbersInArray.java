@@ -17,6 +17,7 @@
  * `isPrime()` returns true if the element is prime.
  */
 
+<<<<<<< HEAD
     public class FindPrimeNumbersInArray {
         public int existsIn(int[] arr, int element) {
             for (int i = 0; i < arr.length; i++) {
@@ -43,3 +44,31 @@
             }
         }
     }
+=======
+public class FindPrimeNumbersInArray {
+    public int existsIn(int[] arr, int element) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public boolean isPrime(int num) {
+        if (num <= 1) return false;
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) return false;
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        int[] numArray = new int[]{5,8,13,18,24,43,55,67,89,100};
+        FindPrimeNumbersInArray findPrimeNumbersInArray = new FindPrimeNumbersInArray();
+        for(int i=0; i<numArray.length; i++) {
+            if(findPrimeNumbersInArray.isPrime(numArray[i])) {
+                System.out.println(numArray[i] + " - at index "+ findPrimeNumbersInArray.existsIn(numArray, numArray[i]));
+            }
+        }
+    }
+}
+>>>>>>> week4

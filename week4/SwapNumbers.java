@@ -1,5 +1,28 @@
 import java.util.Scanner;
 
+<<<<<<< HEAD
+=======
+/**
+ * SwapNumbers
+ * 
+ * @author
+ * Achyut Neupane
+ * <to@achyut.com.np>
+ * 
+ * @question
+ * Write a Java Program to swap two numbers using the third variable.
+ * 
+ * @description
+ * This class 'SwapNumbers' is used to swap two numbers. There are two
+ * attributes 'num1' and 'num2' which are used to store the values of
+ * two numbers. It has two methods 'withTemp' and 'withoutTemp' which
+ * are used to swap the numbers with and without using a temporary
+ * variable respectively. It also has a main method which is used to
+ * call the methods. 
+ * 
+ */
+
+>>>>>>> week4
 public class SwapNumbers {
     int num1,num2;
     SwapNumbers(int num1, int num2) {
@@ -10,13 +33,23 @@ public class SwapNumbers {
         int temp = this.num1;
         this.num1 = this.num2;
         this.num2 = temp;
+<<<<<<< HEAD
         System.out.println("Swapped numbers with third variable are: "+this.num1+" "+this.num2);
+=======
+        System.out.println("Swapped numbers with third variable are: "
+                            +this.num1+" "+this.num2);
+>>>>>>> week4
     }
     public void withoutTemp() {
         this.num1 = this.num1-this.num2;
         this.num2 = this.num1+this.num2;
         this.num1 = this.num2-this.num1;
+<<<<<<< HEAD
         System.out.println("Swapped numbers without third variable are: "+this.num1+" "+this.num2);
+=======
+        System.out.println("Swapped numbers without third variable are: "
+                            +this.num1+" "+this.num2);
+>>>>>>> week4
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

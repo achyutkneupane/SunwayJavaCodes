@@ -19,6 +19,7 @@
  * 
  */
 public class CheckEqual {
+<<<<<<< HEAD
     
         public boolean checkEqual(int[] arr1, int[] arr2) {
             int length = arr1.length;
@@ -41,4 +42,27 @@ public class CheckEqual {
             if(isEqual) System.out.println("Both arrays are equal");
             else System.out.println("Both arrays are not equal");
         }
+=======
+    public boolean checkEqual(int[] arr1, int[] arr2) {
+        int length = arr1.length;
+        if (length != arr2.length) {
+            return false;
+        }
+        for (int i = 0; i < length; i++) {
+            if (arr1[i] != arr2[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int[] numArray1 = new int[]{1,2,3,4,5,6,7,8,9,10};
+        int[] numArray2 = new int[]{1,2,3,4,5,6,8,9,11,78,10};
+        CheckEqual checkEqual = new CheckEqual();
+        boolean isEqual = checkEqual.checkEqual(numArray1, numArray2);
+        if(isEqual) System.out.println("Both arrays are equal");
+        else System.out.println("Both arrays are not equal");
+    }
+>>>>>>> week4
 }
