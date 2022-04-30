@@ -1,3 +1,24 @@
+/**
+ * PatternSix
+ * 
+ * @author
+ * Achyut Neupane
+ * <to@achyut.com.np
+ * 
+ * @question
+ * Write a Java Program to print the following pattern:
+ * 
+ *      1
+ *     212
+ *    32123
+ *   4321234
+ *  543212345
+ * 
+ * @description
+ * This class 'PatternSix' is used to print the given pattern.
+ * It has a main method which is used to print the pattern.
+ * 
+ */
 public class PatternSix {
     public static void main(String[] args) {
         System.out.println("Pattern 4:");

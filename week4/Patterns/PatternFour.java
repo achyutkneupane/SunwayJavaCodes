@@ -1,3 +1,24 @@
+/**
+ * PatternFour
+ * 
+ * @author
+ * Achyut Neupane
+ * <to@achyut.com.np>
+ * 
+ * @question
+ * Write a Java Program to print the following pattern:
+ *      *
+ *     ***
+ *    *****
+ *   *******
+ *  *********
+ * 
+ * @description
+ * This class 'PatternFour' is used to print the given pattern.
+ * It has a main method which is used to print the pattern.
+ * There are two ways to print the pattern. One is using nested
+ * for loop and the other is using single for loop.
+ */
 public class PatternFour {
     public static void main(String[] args) {
         System.out.println("Pattern 4:");

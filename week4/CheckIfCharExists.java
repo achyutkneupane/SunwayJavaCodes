@@ -1,3 +1,24 @@
+/**
+ * CheckIfCharExists
+ * 
+ * @author
+ * Achyut Neupane
+ * <to@achyut.com.np>
+ * 
+ * @question
+ * Write a program to check if the letter 'e'
+ * is present in the word 'Umbrella'.
+ * 
+ * @description
+ * This class 'CheckIfCharExists' is used to check
+ * if the letter 'e' is present in the word 'Umbrella'.
+ * It has a main method in which the boolean value is
+ * taken and checked if it is true or false. This method
+ * checks the letter availability in the word by using
+ * the loop and creating a new string with the characters
+ * of the word.
+ * 
+ */
 public class CheckIfCharExists {
     public static void main(String[] args) {
         String str = "Umbrella";

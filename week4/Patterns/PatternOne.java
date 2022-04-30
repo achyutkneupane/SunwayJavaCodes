@@ -1,3 +1,24 @@
+/**
+ * PatternOne
+ * 
+ * @author
+ * Achyut Neupane
+ * <to@achyut.com.np>
+ * 
+ * @question
+ * Code to print this pattern:
+ *   **********
+ *   **********
+ *   **********
+ *   **********
+ * 
+ * @description
+ * This class 'PatternOne' is used to print the given pattern.
+ * It has a main method which is used to print the pattern.
+ * There are two ways to print the pattern. One is using nested
+ * for loop and the other is using single for loop.
+ * 
+ */
 public class PatternOne {
     public static void main(String[] args) {
         System.out.println("Pattern 1:");
