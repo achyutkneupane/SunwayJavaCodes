@@ -1,4 +1,4 @@
-package ZeroBalanceArray;
+package IndividualProject.ZeroBalanceArray;
 
 public class CheckZeroBalance {
 

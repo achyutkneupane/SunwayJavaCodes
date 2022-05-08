@@ -1,7 +1,4 @@
-package BalancedArray;
-
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+package IndividualProject.BalancedArray;
 
 public class BalancedTest {
     @Test

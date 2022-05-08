@@ -1,3 +1,5 @@
+package week3;
+
 /**
  * PrimeNumber
  * 

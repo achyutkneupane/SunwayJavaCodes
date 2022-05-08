@@ -1,7 +1,7 @@
+package week4;
+
 import java.util.Scanner;
 
-<<<<<<< HEAD
-=======
 /**
  * SwapNumbers
  * 
@@ -22,7 +22,6 @@ import java.util.Scanner;
  * 
  */
 
->>>>>>> week4
 public class SwapNumbers {
     int num1,num2;
     SwapNumbers(int num1, int num2) {
@@ -33,23 +32,15 @@ public class SwapNumbers {
         int temp = this.num1;
         this.num1 = this.num2;
         this.num2 = temp;
-<<<<<<< HEAD
-        System.out.println("Swapped numbers with third variable are: "+this.num1+" "+this.num2);
-=======
         System.out.println("Swapped numbers with third variable are: "
                             +this.num1+" "+this.num2);
->>>>>>> week4
     }
     public void withoutTemp() {
         this.num1 = this.num1-this.num2;
         this.num2 = this.num1+this.num2;
         this.num1 = this.num2-this.num1;
-<<<<<<< HEAD
-        System.out.println("Swapped numbers without third variable are: "+this.num1+" "+this.num2);
-=======
         System.out.println("Swapped numbers without third variable are: "
                             +this.num1+" "+this.num2);
->>>>>>> week4
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

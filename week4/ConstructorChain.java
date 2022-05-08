@@ -1,3 +1,5 @@
+package week4;
+
 public class ConstructorChain {
     int someVariable;
     ConstructorChain(int someVariable) {

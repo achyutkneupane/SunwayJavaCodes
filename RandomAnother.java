@@ -5,7 +5,6 @@ public class RandomAnother {
         objectName.printHello();
         int d = objectName.returnDouble();
         int newNumber = d-2;
-        System.out.println(objectName.valueX);
-        // System.out.println("Double:"+newNumber);
+        System.out.println("Double:"+newNumber);
     }
 }

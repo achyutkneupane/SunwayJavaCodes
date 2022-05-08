@@ -1,4 +1,4 @@
-package ZeroBalanceArray;
+package IndividualProject.ZeroBalanceArray;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

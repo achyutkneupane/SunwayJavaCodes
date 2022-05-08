@@ -9,3 +9,5 @@ Study Contents
 
 # Ignore '.vscode' folder
 .vscode
+
+*.zip

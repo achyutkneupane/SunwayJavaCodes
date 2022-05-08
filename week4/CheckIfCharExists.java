@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+package week4;
 /**
  * CheckIfCharExists
  * 
@@ -21,7 +20,6 @@
  * of the word.
  * 
  */
->>>>>>> week4
 public class CheckIfCharExists {
     public static void main(String[] args) {
         String str = "Umbrella";

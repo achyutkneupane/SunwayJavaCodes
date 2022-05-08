@@ -1,4 +1,4 @@
-package CheckDivisible;
+package IndividualProject.CheckDivisible;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

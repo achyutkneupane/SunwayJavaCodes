@@ -1,4 +1,4 @@
-package DaphneArray;
+package IndividualProject.DaphneArray;
 
 /**
  * CheckDaphneArray

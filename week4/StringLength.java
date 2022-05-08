@@ -1,7 +1,7 @@
+package week4;
+
 /**
  * StringLength
-<<<<<<< HEAD
-=======
  * 
  * @author
  * Achyut Neupane
@@ -19,7 +19,6 @@
  * characters to the string using loop until the original
  * string is same as the new string.
  * 
->>>>>>> week4
  */
 public class StringLength {
     public static void main(String[] args) {

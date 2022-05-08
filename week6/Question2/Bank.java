@@ -33,6 +33,7 @@ public class Bank {
         int accountType = scan.nextInt();
         System.out.println("Enter the balance of the account "+(i+1));
         double balance = scan.nextDouble();
+        System.out.println();
         return new Account(name, address, accountType, balance);
     }
 
@@ -97,13 +98,15 @@ public class Bank {
                 System.out.println("Exception: " + e);
             }
         }
+        boolean found = false;
         for(Account account:bankAccountList) {
             if(account.getAccountNumber().equals(accountNumber)) {
+                found = true;
                 newBank.showOptions(account);
             }
-            else {
-                System.out.println("Invalid Account Number");
-            }
+        }
+        if(!found) {
+            System.out.println("Account not found");
         }
     }
 }

@@ -1,3 +1,5 @@
+package week4;
+
 public class ThisAndThis {
     int someVariable;
     ThisAndThis(int someVariable) {

@@ -1,4 +1,4 @@
-package VanillaArray;
+package IndividualProject.VanillaArray;
 
 public class CheckVanilla {
     int vanillaWith;

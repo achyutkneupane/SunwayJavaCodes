@@ -1,7 +1,7 @@
+package week4;
+
 import java.util.Scanner;
 
-<<<<<<< HEAD
-=======
 /**
  * Student
  * 
@@ -28,7 +28,6 @@ import java.util.Scanner;
  * 
  */
 
->>>>>>> week4
 public class Student {
     String name;
     Student() {
@@ -50,8 +49,4 @@ public class Student {
         s2.display();
         scan.close();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> week4

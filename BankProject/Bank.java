@@ -1,3 +1,5 @@
+package BankProject;
+
 import java.util.Scanner;
 
 public class Bank {
@@ -28,7 +30,7 @@ public class Bank {
         Account achyut = new Account(name, accountNumber, typeOfAccount, totalBalance);
         achyut.setName("Achyut Neupane");
         int action;
-        do {g
+        do {
             showMenuText();
             action = scan.nextInt();
             if(action == 1) {

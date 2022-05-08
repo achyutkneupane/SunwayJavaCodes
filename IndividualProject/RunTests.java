@@ -1,12 +1,13 @@
+package IndividualProject;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-import BalancedArray.BalancedTest;
-import CheckDivisible.DivisibilityTest;
-import DaphneArray.DaphneTest;
-import VanillaArray.VanillaTest;
-import ZeroBalanceArray.ZeroBalanceTest;
+import IndividualProject.BalancedArray.BalancedTest;
+import IndividualProject.CheckDivisible.DivisibilityTest;
+import IndividualProject.DaphneArray.DaphneTest;
+import IndividualProject.VanillaArray.VanillaTest;
+import IndividualProject.ZeroBalanceArray.ZeroBalanceTest;
  
 public class RunTests {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package week4;
+
 public class ConstructorChainChild extends ConstructorChain {
     ConstructorChainChild(int someVariable) {
         super(someVariable);

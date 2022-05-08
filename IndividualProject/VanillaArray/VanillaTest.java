@@ -1,4 +1,4 @@
-package VanillaArray;
+package IndividualProject.VanillaArray;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
